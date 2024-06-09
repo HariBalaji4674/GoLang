@@ -56,12 +56,10 @@ type details struct {
 	become  bool
 }
 
-type employee_details struct{
+type employee_details struct {
 	employeeName string
-	salary int
-	rollno int
-	address string
-	grade float64
+	salary       int
+	rollno       int
+	address      string
+	grade        float64
 }
-
-
