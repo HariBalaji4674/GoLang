@@ -2,23 +2,20 @@ package main
 
 import "fmt"
 
-func main(){
-	fmt.Println(rectangle.height)
+func main3() {
+	// fmt.Println(rectangle.height)
+	fmt.Println("Peddireddy")
 
 }
 
-type rect struct{
+type rect1 struct {
 	height int
-	width int
+	width  int
 	length int
 }
 
-rectangle := rect {
-	height : 20,
-	width : 40,
-	length : 50,
+func (rectangle rect1) area() int {
+	return rectangle.width * rectangle.height * rectangle.length
 }
 
-func (rectangle rect) area() int {
-	return rectangle.width * rectangle.height*rectangle.length
-}
+// Structs are the collection types
