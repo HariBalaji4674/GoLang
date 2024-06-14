@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-func main() {
+func main4() {
 	fmt.Println("Peddireddy")
 
 	var a = "Initial"

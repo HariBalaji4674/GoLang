@@ -1,61 +1,52 @@
-// package main
+package main
 
-// import (
-// 	"fmt"
-// 	"math"
-// )
+import (
+	"fmt"
+	"math"
+)
 
-// func main(){
+type geometry interface {
+	area() float64
+	perim() float64
+}
 
-// 	fmt.Println("Peddireddy Hari Vardhan Reddy")
-// 	var re rect
-// 	re.length = 20
-// 	re.width = 30
-// 	fmt.Println(re.area())
+type rect struct {
+	width, height float64
+}
 
-// 	r := rectan{length:4, breadth: 6}
-// 	c := cicle{radius: 10}
+type circle struct {
+	radius float64
+}
 
-// 	measure(r)
-// 	measure(c)
+func (re rect) area() float64 {
+	return re.height * re.width
+}
 
-// }
+func (ce circle) area() float64 {
+	return ce.radius * ce.radius
+}
 
-// type rect struct {
-// 	width float64
-// 	length float64
-// }
+func (re rect) perim() float64 {
+	return 2 * re.height * re.width
+}
+func (ce circle) perim() float64 {
+	return 2 * math.Pi * ce.radius * ce.radius
+}
 
-// func (r rect) area() float64 {
-// 	return 2*r.length + 2*r.width
-// }
+func printShapesInfo(s geometry) {
+	fmt.Println(s.area())
+	fmt.Println(s.perim())
+}
+func main2() {
+	geometries := []geometry{
+		rect{width: 20, height: 20},
+		circle{radius: 5},
+		// rect{width: 15, height: 15},
+		// circle{radius: 4},
+	}
+	for _, v := range geometries {
+		printShapesInfo(v)
+		fmt.Println("-----")
+	}
 
-// // Interface is an Named collection of method signatures
-
-// type geometry interface {
-// 	area()
-// 	rectangle()
-// }
-
-// type rectan struct{
-// 	length,breadth float64
-// 	// breadth float64
-// }
-
-// type cicle struct{
-// 	radius float64
-// }
-
-// func (r rectan) rectangle() float64{
-// 	return 2*r.length*r.breadth
-// }
-
-// func (c cicle) area() {
-// 	return math.Pi*c.radius*c.radius
-// }
-
-// func measure(g geometry){
-// 	fmt.Println(g)
-// 	fmt.Println(g.area())
-// 	fmt.Println(g.rectangle())
-// }
+}
