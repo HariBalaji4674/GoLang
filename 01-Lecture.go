@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func main(){
+func main10(){
 	fmt.Println("Hello World")
 	var amount int = 25
 	fmt.Println(amount) 

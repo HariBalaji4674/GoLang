@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main10() {
+func main11() {
 	fmt.Println("Peddireddy Hari Vardhan Reddy")
 
 	emp := HR{
