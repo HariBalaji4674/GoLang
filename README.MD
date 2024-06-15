@@ -12,21 +12,21 @@ The four Focus:
 
 1. Capitalization
 2. Eliminate Distractions
-3. Personal Mastery
+3. Personal Mastery:
   Mindset
   Heartset
   Healthset
   Soulset
 4. Day Stacking
 
-10 Tactics for Lifelong Genius:
-  Bubble of focus
-  90/90 Rule
-  60/10 Method
-  The daily Five
-  2nd wind workout
-  2 Massages
-  Traffic University
-  The dream Team
-  Weekly Design System
-  Daily Learning
+- 10 Tactics for Lifelong Genius:
+- Bubble of focus
+- 90/90 Rule
+- 60/10 Method
+- The daily Five
+- 2nd wind workout
+- 2 Massages
+- Traffic University
+- The dream Team
+- Weekly Design System
+- Daily Learning
