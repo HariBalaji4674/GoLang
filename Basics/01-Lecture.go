@@ -5,16 +5,15 @@ import (
 	"math"
 )
 
-func main10(){
+func main10() {
 	fmt.Println("Hello World")
 	var amount int = 25
-	fmt.Println(amount) 
+	fmt.Println(amount)
 	var amount2 = 40.45
 	fmt.Println(amount2)
 	fmt.Println(math.Pi)
 
 }
-
 
 // Simple Intrest Calculator
 // Only one main should available in go Project
@@ -26,12 +25,5 @@ func main10(){
 // fmt.Printf
 // fmt.Print
 
-
 // Explicit Type Assignment
 // certain amount to be calculated
-// 
-
-
-// 
-
-

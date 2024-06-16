@@ -24,4 +24,16 @@ Go Program Key Components
   - Constant Values ( fixed value )
   - Importance of variables
   
-    - 
+### Go Pointers
+
+- What are Pointers:
+
+  - Pointers are variables that store value address instead of values
+  - code ----> Computer memory
+  - Variables ---> Value (Address)
+  - * represents the dereferencing the variable
+  - & represents the address of a variable
+  - 
+- Why Pointers:
+
+ - 
