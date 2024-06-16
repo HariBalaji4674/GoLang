@@ -40,7 +40,7 @@
 
 ## Step 2:
 
-- Linux for Beginners[https://www.youtube.com/watch?v=VbEx7B_PTOE&list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL&index=1&t=0s]
+- [Linux for Beginners](https://www.youtube.com/watch?v=VbEx7B_PTOE&list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL&index=1&t=0s)
 
 ## Step 3:
 
@@ -50,7 +50,7 @@
 ## Step 4:
 
 - Learn Docker
-  - Docker [https://www.youtube.com/playlist?list=PLdpzxOOAlwvLjb0vTD9BXLOwwLD_GWCmC]
+  - [Docker](https://www.youtube.com/playlist?list=PLdpzxOOAlwvLjb0vTD9BXLOwwLD_GWCmC)
 - WASMEdge for ML Workloads
   - [WASMEdge](https://wasmedge.org/)
 - Docker WASM
