@@ -39,36 +39,23 @@
 - [Red Hat AI/ML Overview](https://www.redhat.com/en/topics/ai/w...)
 
 ## Step 2:
-
 - [Linux for Beginners](https://www.youtube.com/watch?v=VbEx7B_PTOE&list=PLIhvC56v63IJIujb5cyE13oLuyORZpdkL&index=1&t=0s)
 
 ## Step 3:
-
-- Version Control System (Hugging Face)
   - [Hugging Face Course](https://www.example.com)
 
 ## Step 4:
-
-- Learn Docker
   - [Docker](https://www.youtube.com/playlist?list=PLdpzxOOAlwvLjb0vTD9BXLOwwLD_GWCmC)
-- WASMEdge for ML Workloads
   - [WASMEdge](https://wasmedge.org/)
-- Docker WASM
   - [Docker WASM](https://docs.docker.com/desktop/wasm/)
 
 ## Step 5:
-
-- Learn Kubernetes
   - [Kubernetes Playlist](https://www.youtube.com/playlist?list=PLdpzxOOAlwvJdsW6A0jCz_3VaANuFMLpc)
 
 ## Step 6:
-
-- CI/CD
   - [What is CI/CD?](https://www.youtube.com/watch?v=CmVxoNkkACQ&list=PLdpzxOOAlwvLUH6ww022l7OZGakJYP9WY&index=1&t=0s)
-- CI/CD using Kubeflow
+
   - [Kubeflow Playlist](https://www.youtube.com/playlist?list=PL5JFPVMx5WzVHjlnww_PHdlSAW-no91LK)
 
 ## Step 7:
-
-- Terraform Zero to Hero
   - [Terraform Playlist](https://www.youtube.com/playlist?list=PLdpzxOOAlwvI0O4PeKVV1-yJoX2AqIWuf)
