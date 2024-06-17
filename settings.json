@@ -1,0 +1,67 @@
+{
+    "editor.minimap.enabled": false,
+    "window.commandCenter": false,
+    "editor.autoClosingBrackets": "always",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1,
+    "editor.wordWrap": "on",
+    "workbench.editor.enablePreview": false,
+    "editor.fontSize": 16,
+    "workbench.colorTheme": "Atom One Dark",
+    "terminal.integrated.tabs.defaultColor": "terminal.ansiBlue",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 15,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.semanticTokenColorCustomizations": {
+    
+    },
+    "workbench.activityBar.location": "top",
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "none",
+    "accessibility.signalOptions": {
+        
+        "volume": 70,
+        "debouncePositionChanges": false,
+        "experimental.delays": {
+            "general": {
+                "announcement": 3000,
+                "sound": 400
+            },
+            "warningAtPosition": {
+                "announcement": 3000,
+                "sound": 1000
+            },
+            "errorAtPosition": {
+                "announcement": 3000,
+                "sound": 1000
+            }
+        }
+    },
+    "editor.codeActionsOnSave": {
+    
+
+
+
+        
+    },
+    "git.enableSmartCommit": true,
+    "explorer.confirmDelete": false,
+    "python.analysis.diagnosticSeverityOverrides": {
+
+    },
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.autoIndent": true,
+    "workbench.layoutControl.enabled": false,
+    "editor.tokenColorCustomizations": {
+    "[Atom One Dark]": {
+        "comments": "#d4ea30"
+    }
+},
+"editor.indentSize": "tabSize",
+"gopls": {
+    "ui.semanticTokens": true
+},
+"git.openRepositoryInParentFolders": "always"
+
+}
