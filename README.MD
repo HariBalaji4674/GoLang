@@ -59,3 +59,15 @@
 
 ### Step 7:
   - [Terraform Playlist](https://www.youtube.com/playlist?list=PLdpzxOOAlwvI0O4PeKVV1-yJoX2AqIWuf)
+
+
+### Tech Skills:
+
+- Strong experience with infrastructure and software development and delivery life-cycle.
+- Expertise in multiple programming languages, such as Golang or Python.
+- Extensive experience with Docker and Kubernetes, including deployment, scaling, and management of containerized applications.
+- Deep familiarity with Linux / Unix operating systems.
+- Good understanding of networking principles and protocols.
+- Proficiency in infrastructure as code, and its tooling such as Terraform, Prometheus, and Grafana.
+- Familiarity with cloud platforms like AWS, Azure, and GCP.
+

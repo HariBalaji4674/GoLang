@@ -36,4 +36,9 @@ Go Program Key Components
   - 
 - Why Pointers:
 
- - 
+### Structs
+- Grouping Data and Functions into collections
+
+### What are structs?
+- Grouping data and functions into collections
+- 
