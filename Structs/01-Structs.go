@@ -1,39 +1,90 @@
-package main
+package Structs
 
-import "fmt"
-
-func main() {
-
-	UserDetails := User{}
-	fmt.Println(UserDetails)
-
-	StrInitial(UserDetails)
-
-	NewUser(UserDetails)
-
-}
+import (
+	"errors"
+	"fmt"
+	"time"
+)
 
 type User struct {
-	Name   string
-	Age    int
-	Marks  float64
-	Status bool
+	firstname string
+	lastname  string
+	birthdate string
+	createdAt time.Time
 }
 
-func NewUser(u User) {
-	fmt.Println(u.Age, u.Marks, u.Name, u.Status)
+// methods in go called adding function to the struct
+
+func (u user) method1(village string) {
+	fmt.Println("This is a method 1")
+	fmt.Println("Method 1: ", u.birthdate)
+	fmt.Println("Method 1: ", u.firstname)
+	fmt.Println("Method 1: ", u.lastname)
+	fmt.Println("Method 1: ", u.createdAt)
+
+	fmt.Println("Calling Village : ", village)
+
 }
 
-func StrInitial(u User) {
-	var username string
-	fmt.Println("Please Enter UserName : ")
-	fmt.Scan(&username)
-	fmt.Println(username)
-
-	u.Name = username
+func (u *user) clearMethod() {
+	fmt.Println("Clearing All These : ", u.birthdate, u.lastname, u.firstname)
+	u.firstname = " "
+	u.lastname = " "
+	u.birthdate = " "
 
 }
+func getUserData(promptText string) string {
+	fmt.Print(promptText)
+	var value string
+	fmt.Scanln(&value)
+	return value
+}
 
-// Structs Declaration
-// Structs Calling or Instantiating
-// Struct declaring
+func outputUserDetails(firstName, lastName, birthDate string) {
+	fmt.Println(firstName, lastName, birthDate)
+}
+
+func outputStruct(u user) {
+	fmt.Println(u.createdAt, u.birthdate, u.firstname, u.lastname)
+}
+
+// Passing Pointers to the function as struct
+
+func pointStruct(u *user) {
+	fmt.Println(u.birthdate, u.lastname, u.firstname, u.createdAt)
+}
+
+// Constructer Functions
+
+func newUser(firstName, lastName, birthDate string) (*user, error) {
+
+	if firstName == "" || lastName == "" || birthDate == "" {
+
+		return nil, errors.New("This is errore message required ")
+
+	}
+	return &user{
+		firstname: firstName,
+		lastname:  lastName,
+		birthdate: birthDate,
+		createdAt: time.Now(),
+	}, nil
+}
+
+/*
+
+Only Capital Letters start only will work outside the package
+Structs Embedding : builds new struct on top of existing Structs
+Structrs inside the structs is called embedded structs
+
+Loops
+Structs
+Methods
+Packages
+Variables
+
+
+Creating Custom Constructors
+
+
+*/

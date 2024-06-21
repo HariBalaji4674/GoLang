@@ -39,6 +39,25 @@ Go Program Key Components
 ### Structs
 - Grouping Data and Functions into collections
 
-### What are structs?
-- Grouping data and functions into collections
+### Interfaces :
+- Interfaces are like combining repeated methods into a single type
+- Mentioning the names of an methods to an inteface type
+- Repeated methods 
+type <inteface-name> interface {
+
+}
+- Embedded Intefaces : interfaces inside the interface
+
+### Interfaces Dynamic Types and Limitations:
+
+### Generics :  
+- func [Placholder name]() function-name <genaric> {}
+
+### Arrays
+- collections of similar kind of data is called arrrays 
+- where we can store multiple values
+
+### Slices
+- Cutting the arrays is called arrays
+- len : No of elements and cap will gives capacity
 - 
