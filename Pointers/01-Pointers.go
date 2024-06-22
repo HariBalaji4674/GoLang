@@ -11,7 +11,7 @@ func main() {
 	newAge = &age      // referencing the Address of Pointer to newAge
 	fmt.Println("Address of Variable : ", newAge) // reference/Address Value Printing in screen
 
-	fmt.Println("Deferencing Value : ", *newAge) // Dereferencing the Operator 
+	fmt.Println("Deferencing Value : ", *newAge) // Dereferencing the Operator
 	// fmt.Println("After Changing value : ", getAdultAge(age))
 	getAdultage1(newAge)
 	fmt.Println("Modified Value : ", age)
@@ -24,4 +24,8 @@ func main() {
 
 func getAdultage1(age *int) {
 	*age = *age + 18
+}
+
+func kissing(){
+	dearone  :=
 }
