@@ -71,3 +71,31 @@
 - Proficiency in infrastructure as code, and its tooling such as Terraform, Prometheus, and Grafana.
 - Familiarity with cloud platforms like AWS, Azure, and GCP.
 
+
+
+DSA Roadmap 📢 📢
+.
+0-2 week: Get your basics strong, most importantly loops. Practice pattern printing questions, it will help you in logic building too
+.
+3rd week: Learn about functions and pointers (if applicable). Also understand how recursion works and practice basic recursion questions
+.
+4-5 week: Watch array tutorials, read articles on gfg. First understand the theory and concept of arrays. Do the basic implementation like input, output, sum of array, reverse array, etc. Now go to gfg/leetcode, filter questions by Array topic and sort by difficulty. Do 5-6 easy questions, 10-12 medium and 5-6 hard. In total, you should do atleast 20 questions of each topic
+.
+Next 2-3 months: Repeat the above process as described for Arrays for other data structures. The order should be Array -> Linked List -> Stack -> Queue -> Tree -> Graph -> Heap
+.
+Next 1 month: Practice the most commonly asked dsa questions. You will find many such dsa sheets like striver and love babbar. "Most common DSA questions geeksforgeeks" this will also give you a list of such questions and I highly recommend it
+.
+After that just keep in touch with DSA by solving "Leecode question of the Day" or a commonly asked question. That should be enough!
+
+⚠️ Important Points to Note:
+
+● Some questions might be combination of different topics, so feel free to skip them while doing topic wise questions
+
+● Mark important questions for later that you think can be important or it you were not able to solve them without looking at the solution
+
+● For Algorithms like Binary Search, Greedy, DP, etc., you can learn about them when you encounter while practicing questions from a topic or can do it dedicatedly too like we are doing for data structures
+
+● Look at different solutions no matter you were able to solve the question or not. It will give you different ideas and more ways to solve it
+
+● Also make notes while learning theory of DSA, it will help you quickly revise before the interviews. It doesn't need to be very formal. Its just for your own understanding
+.
