@@ -10,7 +10,7 @@ import (
 
 var wg sync.WaitGroup
 
-func main(){
+func main() {
 	wg.Add(3)
 
 	fmt.Println("Staring go routines ")
@@ -19,17 +19,16 @@ func main(){
 	go responce("https://coderwall.com")
 	go responce("https://stackoverflow.com")
 
-
 	wg.Wait()
 	fmt.Println("Terminating the services")
 }
 
-func responce(url string){
+func responce(url string) {
 
 	defer wg.Done() // Used to decrement the counter
 
 	fmt.Println("Step 1: ", url)
-	responce,err := http.Get(url)
+	responce, err := http.Get(url)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -38,11 +37,11 @@ func responce(url string){
 	defer responce.Body.Close()
 
 	fmt.Println("Step 3 : ", url)
-	body,err := io.ReadAll(responce.Body)
+	body, err := io.ReadAll(responce.Body)
 
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	fmt.Println("Step 4: ", len(body))
+	fmt.Println("Step 4 : ", len(body))
 }
