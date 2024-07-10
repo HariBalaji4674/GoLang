@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"os"
 	"time"
-
 	// "example.com/practice/practice"
 )
 
@@ -29,15 +28,11 @@ func main() {
 	}
 	done := make(chan bool)
 	go add("peddireddy", done)
-	<- done                                                          
+	<-done
 }
 
-func add(text string, goChan chan bool){
-	time.Sleep(3*time.Second)
+func add(text string, goChan chan bool) {
+	time.Sleep(3 * time.Second)
 	fmt.Println("peddireddy", text)
 	goChan <- true
 }
-
-
-	
-	
