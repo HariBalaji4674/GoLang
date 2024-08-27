@@ -56,10 +56,7 @@ func main() {
 		Backtick is used to write multiple lines in a single printf
 		Functions : Sequence of steps to solve a probelm
 		we can add variable and constants outside the functions as well
-
 		Go is a static typed language we need to specify the return type particularly
-
-
 	*/
 }
 
